@@ -1,3 +1,3 @@
 def (call){
-    sh "npm install sonar-scanner"
+    sh 'npm install sonar-scanner'
 }
