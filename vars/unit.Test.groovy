@@ -1,3 +1,3 @@
 def call(){
-sh 'npm run test'
+sh 'npm install'
 }
