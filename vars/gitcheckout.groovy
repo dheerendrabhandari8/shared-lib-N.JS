@@ -3,6 +3,6 @@ def call(Map stageParams){
         $class: 'GitSCM',
         branches: [[name: stageParams.branch]],
 
-        userRemoteConfigs: [[credentialsId: 'glpat-SGD-hzceVcTfMsTh31qn', url: stageParams.url]]
+        userRemoteConfigs: [[credentialsId: 'gitlab', url: stageParams.url]]
     ])
 }
